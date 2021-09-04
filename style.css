@@ -2,7 +2,7 @@ body{
     text-align: center;
 }
 
-#weatherBox {
+.weatherBox {
   text-align: center;
   display: inline-grid;
   width: 150px;

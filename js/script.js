@@ -54,8 +54,13 @@
 // const $input = $('input[type="text"]')
 // $('form').on('submit', console.log($input))
 
-let userInput;
+let weatherData
+let userInput
+const $high_Temp = $('#high_Temp');
+const $low_Temp = $('#low_Temp');
+
 const $input = $('input[type="text"]')
+$('form').on('submit', weather)
 
 function weather(event) {
     event.preventDefault()
@@ -64,14 +69,20 @@ function weather(event) {
         url: `https://api.weatherbit.io/v2.0/forecast/daily?city=${userInput}&units=imperial&lang=en&key=d9b5c7c9931647f6a52ad388821c3004`
     }).then(
         (data) => {
-            console.log(data);
+            weatherData = data
+            render()
+            console.log(data)
             console.log(userInput)
         },
         (error) => {
-            console.log('bad request: ', error);
+            console.log('bad request: ', error)
         }
     );
 }
 //document.querySelector('form').addEventListener('submit', weather)
-$('form').on('submit', weather)
 
+function render() {
+    $high_Temp.text(weatherData.data[0].high_temp);
+    $low_Temp.text(weatherData.data[0].low_temp);
+
+}
