@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Weather App</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script defer src="./js/script.js"></script>
@@ -17,25 +17,115 @@
     </form>
 
     <span id = 'weatherBoxes'>
-        <div class = 'weatherBox' id = 'weatherBox0'>day 1
-            <p>High:</p><p id = 'high_Temp'></p>
-            <p>Low:</p><p id = 'low_Temp'></p>
+        <div class = 'weatherBox' id = 'weatherBox0'>
+            <p id = 'date_Time0'>day 1</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp0'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp0'></p>
+            <p class = 'description' id = 'weather_Description0'>''</p>
         </div>
-        <div class = 'weatherBox' id = 'weatherBox1'>day 2</div>
-        <div class = 'weatherBox' id = 'weatherBox2'>day 3</div>
-        <div class = 'weatherBox' id = 'weatherBox3'>day 4</div>
-        <div class = 'weatherBox' id = 'weatherBox4'>day 5</div>
-        <div class = 'weatherBox' id = 'weatherBox5'>day 6</div>
-        <div class = 'weatherBox' id = 'weatherBox6'>day 7</div>
-        <div class = 'weatherBox' id = 'weatherBox7'>day 8</div>
-        <div class = 'weatherBox' id = 'weatherBox8'>day 9</div>
-        <div class = 'weatherBox' id = 'weatherBox9'>day 10</div>
-        <div class = 'weatherBox' id = 'weatherBox10'>day 11</div>
-        <div class = 'weatherBox' id = 'weatherBox11'>day 12</div>
-        <div class = 'weatherBox' id = 'weatherBox12'>day 13</div>
-        <div class = 'weatherBox' id = 'weatherBox13'>day 14</div>
-        <div class = 'weatherBox' id = 'weatherBox14'>day 15</div>
-        <div class = 'weatherBox' id = 'weatherBox15'>day 16</div>
+        <div class = 'weatherBox' id = 'weatherBox1'>            
+            <p id = 'date_Time1'>day 2</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp1'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp1'></p>
+            <p class = 'description' id = 'weather_Description1'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox2'>
+            <p id = 'date_Time2'>day 3</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp2'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp2'></p>
+            <p class = 'description' id = 'weather_Description2'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox3'>
+            <p id = 'date_Time3'>day 4</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp3'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp3'></p>
+            <p class = 'description' id = 'weather_Description3'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox4'>
+            <p id = 'date_Time4'>day 5</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp4'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp4'></p>
+            <p class = 'description' id = 'weather_Description4'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox5'>
+            <p id = 'date_Time5'>day 6</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp5'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp5'></p>
+            <p class = 'description' id = 'weather_Description5'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox6'>
+            <p id = 'date_Time6'>day 7</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp6'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp6'></p>
+            <p class = 'description' id = 'weather_Description6'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox7'>            
+            <p id = 'date_Time7'>day 8</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp7'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp7'></p>
+            <p class = 'description' id = 'weather_Description7'>''</p></div>
+        <div class = 'weatherBox' id = 'weatherBox8'>            
+            <p id = 'date_Time8'>day 9</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp8'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp8'></p>
+            <p class = 'description' id = 'weather_Description8'>''</p></div>
+        <div class = 'weatherBox' id = 'weatherBox9'>
+            <p id = 'date_Time9'>day 10</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp9'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp9'></p>
+            <p class = 'description' id = 'weather_Description9'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox10'>            
+            <p id = 'date_Time10'>day 11</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp10'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp10'></p>
+            <p class = 'description' id = 'weather_Description10'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox11'>            
+            <p id = 'date_Time11'>day 12</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp11'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp11'></p>
+            <p class = 'description' id = 'weather_Description11'>''</p></div>
+        <div class = 'weatherBox' id = 'weatherBox12'>
+            <p id = 'date_Time12'>day 13</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp12'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp12'></p>
+            <p class = 'description' id = 'weather_Description12'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox13'>
+            <p id = 'date_Time13'>day 14</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp13'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp13'></p>
+            <p class = 'description' id = 'weather_Description13'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox14'>
+            <p id = 'date_Time14'>day 15</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp14'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp14'></p>
+            <p class = 'description' id = 'weather_Description14'>''</p>
+        </div>
+        <div class = 'weatherBox' id = 'weatherBox15'>            
+            <p id = 'date_Time15'>day 16</p>
+        </br>
+            <p class = 'temps'>High:</p><p class = 'highLowTemps' id = 'high_Temp15'></p>
+            <p class = 'temps'>Low:</p><p class = 'highLowTemps' id = 'low_Temp15'></p>
+            <p class = 'description' id = 'weather_Description15'>''</p></div>
+        
     </span>
   </body>
 </html>
