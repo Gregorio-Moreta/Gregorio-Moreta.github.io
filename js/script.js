@@ -162,88 +162,88 @@ function weather(event) {
 // console.log(days)
 //document.querySelector('#weatherBoxes').innerHTML('hello world')
 
-function render() {
-    //console.log(weatherData)
-    $high_Temp0.text(weatherData.data[0].high_temp)
-    $low_Temp0.text(weatherData.data[0].low_temp)
-    $date_Time0.text(weatherData.data[0].datetime)
-    $weather_Description0.text(weatherData.data[0].weather.description)
+// function render() {
+//     //console.log(weatherData)
+//     $high_Temp0.text(weatherData.data[0].high_temp)
+//     $low_Temp0.text(weatherData.data[0].low_temp)
+//     $date_Time0.text(weatherData.data[0].datetime)
+//     $weather_Description0.text(weatherData.data[0].weather.description)
 
-    $high_Temp1.text(weatherData.data[1].high_temp)
-    $low_Temp1.text(weatherData.data[1].low_temp)
-    $date_Time1.text(weatherData.data[1].datetime)
-    $weather_Description1.text(weatherData.data[1].weather.description)
+//     $high_Temp1.text(weatherData.data[1].high_temp)
+//     $low_Temp1.text(weatherData.data[1].low_temp)
+//     $date_Time1.text(weatherData.data[1].datetime)
+//     $weather_Description1.text(weatherData.data[1].weather.description)
     
-    $high_Temp2.text(weatherData.data[2].high_temp)
-    $low_Temp2.text(weatherData.data[2].low_temp)
-    $date_Time2.text(weatherData.data[2].datetime)
-    $weather_Description2.text(weatherData.data[2].weather.description)
+//     $high_Temp2.text(weatherData.data[2].high_temp)
+//     $low_Temp2.text(weatherData.data[2].low_temp)
+//     $date_Time2.text(weatherData.data[2].datetime)
+//     $weather_Description2.text(weatherData.data[2].weather.description)
     
-    $high_Temp3.text(weatherData.data[3].high_temp)
-    $low_Temp3.text(weatherData.data[3].low_temp)
-    $date_Time3.text(weatherData.data[3].datetime)
-    $weather_Description3.text(weatherData.data[3].weather.description)
+//     $high_Temp3.text(weatherData.data[3].high_temp)
+//     $low_Temp3.text(weatherData.data[3].low_temp)
+//     $date_Time3.text(weatherData.data[3].datetime)
+//     $weather_Description3.text(weatherData.data[3].weather.description)
     
-    $high_Temp4.text(weatherData.data[4].high_temp)
-    $low_Temp4.text(weatherData.data[4].low_temp)
-    $date_Time4.text(weatherData.data[4].datetime)
-    $weather_Description4.text(weatherData.data[4].weather.description)
+//     $high_Temp4.text(weatherData.data[4].high_temp)
+//     $low_Temp4.text(weatherData.data[4].low_temp)
+//     $date_Time4.text(weatherData.data[4].datetime)
+//     $weather_Description4.text(weatherData.data[4].weather.description)
     
-    $high_Temp5.text(weatherData.data[5].high_temp)
-    $low_Temp5.text(weatherData.data[5].low_temp)
-    $date_Time5.text(weatherData.data[5].datetime)
-    $weather_Description5.text(weatherData.data[5].weather.description)
+//     $high_Temp5.text(weatherData.data[5].high_temp)
+//     $low_Temp5.text(weatherData.data[5].low_temp)
+//     $date_Time5.text(weatherData.data[5].datetime)
+//     $weather_Description5.text(weatherData.data[5].weather.description)
     
-    $high_Temp6.text(weatherData.data[6].high_temp)
-    $low_Temp6.text(weatherData.data[6].low_temp)
-    $date_Time6.text(weatherData.data[6].datetime)
-    $weather_Description6.text(weatherData.data[6].weather.description)
+//     $high_Temp6.text(weatherData.data[6].high_temp)
+//     $low_Temp6.text(weatherData.data[6].low_temp)
+//     $date_Time6.text(weatherData.data[6].datetime)
+//     $weather_Description6.text(weatherData.data[6].weather.description)
     
-    $high_Temp7.text(weatherData.data[7].high_temp)
-    $low_Temp7.text(weatherData.data[7].low_temp)
-    $date_Time7.text(weatherData.data[7].datetime)
-    $weather_Description7.text(weatherData.data[7].weather.description)
+//     $high_Temp7.text(weatherData.data[7].high_temp)
+//     $low_Temp7.text(weatherData.data[7].low_temp)
+//     $date_Time7.text(weatherData.data[7].datetime)
+//     $weather_Description7.text(weatherData.data[7].weather.description)
     
-    $high_Temp8.text(weatherData.data[8].high_temp)
-    $low_Temp8.text(weatherData.data[8].low_temp)
-    $date_Time8.text(weatherData.data[8].datetime)
-    $weather_Description8.text(weatherData.data[8].weather.description)
+//     $high_Temp8.text(weatherData.data[8].high_temp)
+//     $low_Temp8.text(weatherData.data[8].low_temp)
+//     $date_Time8.text(weatherData.data[8].datetime)
+//     $weather_Description8.text(weatherData.data[8].weather.description)
     
-    $high_Temp9.text(weatherData.data[9].high_temp)
-    $low_Temp9.text(weatherData.data[9].low_temp)
-    $date_Time9.text(weatherData.data[9].datetime)
-    $weather_Description9.text(weatherData.data[9].weather.description)
+//     $high_Temp9.text(weatherData.data[9].high_temp)
+//     $low_Temp9.text(weatherData.data[9].low_temp)
+//     $date_Time9.text(weatherData.data[9].datetime)
+//     $weather_Description9.text(weatherData.data[9].weather.description)
     
-    $high_Temp10.text(weatherData.data[10].high_temp)
-    $low_Temp10.text(weatherData.data[10].low_temp)
-    $date_Time10.text(weatherData.data[10].datetime)
-    $weather_Description10.text(weatherData.data[10].weather.description)
+//     $high_Temp10.text(weatherData.data[10].high_temp)
+//     $low_Temp10.text(weatherData.data[10].low_temp)
+//     $date_Time10.text(weatherData.data[10].datetime)
+//     $weather_Description10.text(weatherData.data[10].weather.description)
     
-    $high_Temp11.text(weatherData.data[11].high_temp)
-    $low_Temp11.text(weatherData.data[11].low_temp)
-    $date_Time11.text(weatherData.data[11].datetime)
-    $weather_Description11.text(weatherData.data[11].weather.description)
+//     $high_Temp11.text(weatherData.data[11].high_temp)
+//     $low_Temp11.text(weatherData.data[11].low_temp)
+//     $date_Time11.text(weatherData.data[11].datetime)
+//     $weather_Description11.text(weatherData.data[11].weather.description)
     
-    $high_Temp12.text(weatherData.data[12].high_temp)
-    $low_Temp12.text(weatherData.data[12].low_temp)
-    $date_Time12.text(weatherData.data[12].datetime)
-    $weather_Description12.text(weatherData.data[12].weather.description)
+//     $high_Temp12.text(weatherData.data[12].high_temp)
+//     $low_Temp12.text(weatherData.data[12].low_temp)
+//     $date_Time12.text(weatherData.data[12].datetime)
+//     $weather_Description12.text(weatherData.data[12].weather.description)
     
-    $high_Temp13.text(weatherData.data[13].high_temp)
-    $low_Temp13.text(weatherData.data[13].low_temp)
-    $date_Time13.text(weatherData.data[13].datetime)
-    $weather_Description13.text(weatherData.data[13].weather.description)
+//     $high_Temp13.text(weatherData.data[13].high_temp)
+//     $low_Temp13.text(weatherData.data[13].low_temp)
+//     $date_Time13.text(weatherData.data[13].datetime)
+//     $weather_Description13.text(weatherData.data[13].weather.description)
     
-    $high_Temp14.text(weatherData.data[14].high_temp)
-    $low_Temp14.text(weatherData.data[14].low_temp)
-    $date_Time14.text(weatherData.data[14].datetime)
-    $weather_Description14.text(weatherData.data[14].weather.description)
+//     $high_Temp14.text(weatherData.data[14].high_temp)
+//     $low_Temp14.text(weatherData.data[14].low_temp)
+//     $date_Time14.text(weatherData.data[14].datetime)
+//     $weather_Description14.text(weatherData.data[14].weather.description)
     
-    $high_Temp15.text(weatherData.data[15].high_temp)
-    $low_Temp15.text(weatherData.data[15].low_temp)
-    $date_Time15.text(weatherData.data[15].datetime)
-    $weather_Description15.text(weatherData.data[15].weather.description)
-}
+//     $high_Temp15.text(weatherData.data[15].high_temp)
+//     $low_Temp15.text(weatherData.data[15].low_temp)
+//     $date_Time15.text(weatherData.data[15].datetime)
+//     $weather_Description15.text(weatherData.data[15].weather.description)
+// }
 
 
 // $(document).ready(function(){
@@ -256,3 +256,27 @@ function render() {
 //     console.log(element);   // children's element
 //  });
 // });
+
+function render() {
+    x = 0
+    while (x < 16) {
+        let y = document.querySelector('#high_Temp' + x)
+        y.innerHTML += (weatherData.data[x].high_temp)
+        //let y = '$high_Temp' + x    right track
+        let a = document.querySelector('#low_Temp' + x)
+        a.innerHTML += (weatherData.data[x].low_temp)
+        // $low_Temp0.text(weatherData.data[x].low_temp)
+        let b = document.querySelector('#date_Time' + x)
+        b.innerHTML = (weatherData.data[x].datetime)
+        // $date_Time0.text(weatherData.data[x].datetime)
+        let c = document.querySelector('#weather_Description' + x)
+        c.innerHTML = (weatherData.data[x].weather.description)
+        // $weather_Description0.text(weatherData.data[x].weather.description)
+        x++
+        console.log(x)
+        console.log(y)
+        console.log(a)
+        console.log(weatherData)
+    }
+
+}
