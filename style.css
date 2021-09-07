@@ -1,15 +1,11 @@
-body {
-  text-align: center;
-  /*background-color: rgb(134, 134, 170);*/
+body{
+    text-align: center;
 }
 header {
-  margin: 50px 0px 0px 0px;
+ margin: 50px 0px 0px 0px;
 }
 form {
-  margin: 50px 0px 30px 0px;
-}
-span {
-  flex: wrap;
+ margin: 50px 0px 30px 0px;
 }
 .weatherBox {
   text-align: center;
@@ -21,18 +17,15 @@ span {
   border: 1px solid blue;
   background-color: rgb(255, 255, 234);
 }
-
-p.temps {
-  position: absoulte;
-  text-align: left;
-  margin: -0px 0px 0px 0px;
+.temps {
+    position: absoulte;
+    text-align: left;
+    margin: -0px 0px 0px 0px;
 }
-
-p.highLowTemps {
-  text-align: center;
-  margin: -35px 0px 0px 0px;
+.highTemps, .lowTemps {
+    text-align: center;
+    margin: -35px 0px 0px 0px;
 }
-
-p.description {
-  vertical-align: bottom;
+.description {
+    vertical-align : bottom;
 }
