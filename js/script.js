@@ -35,4 +35,4 @@ function weather(event) {
             console.log('bad request: ', error);
         }
     );
-}
+} 
