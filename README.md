@@ -20,11 +20,6 @@ weatherbit.io API
 
 __________________________________________________________________________________________________
 
-SCREENSHOTS
-
-
-
-
 
 __________________________________________________________________________________________________
 
@@ -34,7 +29,7 @@ For more information please visit:
 
 https://www.weatherbit.io/api/weather-forecast-16-day
 
-
+Just type any city name and submit it to get back a 16 day weather forecast.
 
 
 __________________________________________________________________________________________________
@@ -42,6 +37,7 @@ ________________________________________________________________________________
 FUTURE ENHANCEMENTS
 
 Perhaps adding some additional styling would be good
+Adding more information to the weather cards themselves
 
 
 
