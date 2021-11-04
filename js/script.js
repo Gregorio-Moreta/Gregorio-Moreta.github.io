@@ -10,7 +10,7 @@ function weather(event) {
     event.preventDefault();
     userInput = $input.val();
     $.ajax({
-        url: `https://api.weatherbit.io/v2.0/forecast/daily?city=${userInput}&units=imperial&lang=en&key=d9b5c7c9931647f6a52ad388821c3004`
+        url: `https://api.weatherbit.io/v2.0/forecast/daily?city=${userInput}&units=imperial&lang=en&key=5bff8890ebe34acaac52acd2590d936e`
     }).then(
         (data) => {
             weatherData = data.data;
